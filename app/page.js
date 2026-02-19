@@ -2,12 +2,12 @@
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-linear-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-linear-to-br from-purple-50 to-pink-100 flex items-center justify-center p-4">
       <div className="text-center">
         {/* Logo / Icon */}
         <div className="mb-8">
-          <div className="w-20 h-20 bg-indigo-600 rounded-2xl mx-auto flex items-center justify-center">
-            <span className="text-4xl">🎓</span>
+          <div className="w-20 h-20 bg-purple-600 rounded-2xl mx-auto flex items-center justify-center">
+            <span className="text-4xl">📖</span>
           </div>
         </div>
 
@@ -28,13 +28,16 @@ export default function Home() {
         </p>
 
         {/* Coming Soon Badge */}
-        <div className="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full text-lg font-semibold">
+        <div className="inline-block bg-purple-600 text-white px-8 py-3 rounded-full text-lg font-semibold">
           Coming Soon 🚀
         </div>
 
         {/* Footer */}
         <p className="mt-12 text-sm text-gray-400">
           Built by a vibe coder with AI assistance
+          <br />
+          <br />
+          Contact: mafudwaluyo@gmail.com
         </p>
       </div>
     </div>
